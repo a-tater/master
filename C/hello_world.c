@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main() {
+/*int main() {
     printf("Hello World!");
     return 0;
-}
+} */
 
 //could also be written as:
-int main(){printf("Hello World!");return 0;}
+//int main1() {printf("Hello World!");return 0;}
 
 //C ignores white space
 
@@ -33,4 +33,5 @@ int main() {
 /* this is a 
 multiline comment
 */
+
 
