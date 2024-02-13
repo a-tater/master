@@ -51,10 +51,30 @@ Explicit Conversion (manual)
 
     //Implicit Conversion
     float myFloat = 9; // returns 9.000000
+    int myInt = 9.9999; // returns 9
+    float mySum = 5 / 2; // returns 2.0000
+
+    //Explicit Conversion
+    float mySum2 = (float) 5 / 2; // returns 2.50
 
     printf("%f\n", myFloat);
+    printf("%d\n", myInt);
+    printf("%f\n", mySum);
+    printf("%.2f\n", mySum2);
 
-    
+
+    //Constants
+    //Declaring a variable a constant makes it unchangeable and read-only
+
+    const int myVar = 15;
+    // int myVar = 10; // this produces an error
+
+    //Constants must be created with a value
+
+    const int milesPerHour = 60; // this will work
+    // const int milesPerSecond;
+    // milesPerSecond = 60; // this will not work
+
 
 
     return 0;
