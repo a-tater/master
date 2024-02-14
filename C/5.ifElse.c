@@ -41,7 +41,8 @@ switch - specifies an alternative block of code to be executed
     };
 
 //Shorthand if / else:
-    (five > ten) ? printf("five is greater than ten") : printf("this is pretty nifty\n");
+//       if                      then                             else
+    (five > ten) ? printf("five is greater than ten") : printf("this is pretty nifty\n\n");
 
     return 0;
 }
