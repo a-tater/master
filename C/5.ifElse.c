@@ -11,7 +11,7 @@ else if - specifies a new condition to test if the first condition evaluates to 
 switch - specifies an alternative block of code to be executed
 */
 
-
+    printf("\n");
     bool taterRocks = true;
     int five = 5;
     int ten = 10;
@@ -42,7 +42,24 @@ switch - specifies an alternative block of code to be executed
 
 //Shorthand if / else:
 //       if                      then                             else
-    (five > ten) ? printf("five is greater than ten") : printf("this is pretty nifty\n\n");
+    (five > ten) ? printf("five is greater than ten") : printf("this is pretty nifty\n");
 
+//Switch
+
+    int day = 4;
+
+    switch (day) {
+        case 6:
+            printf("Saturday\n");
+            break; //stops execution of more code and case testing inside the block, ignores rest of code in switch block
+        case 7:
+            printf("Sunday\n");
+            break;
+        default: // option, specifies code to run if no match - must be last line of code in block
+            printf("Weekday\n");
+    };
+
+
+    printf("\n");
     return 0;
 }
