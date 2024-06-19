@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class TestMax {
+   public TestMax() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 5;
+      byte var2 = 2;
+      int var3 = max(var1, var2);
+      System.out.println("The maximum between " + var1 + " and " + var2 + " is " + var3);
+      System.out.println("The maximum between " + var1 + " and " + var2 + " is " + max(var1, var2));
+   }
+
+   public static int max(int var0, int var1) {
+      return var0 > var1 ? var0 : var1;
+   }
+}
